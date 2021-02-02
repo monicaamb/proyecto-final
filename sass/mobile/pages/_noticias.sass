@@ -1,0 +1,52 @@
+.noticias
+  background-color: transparentize($color_negro, .3)
+  .container
+    grid-gap: 10rem
+    align-items: center
+    justify-content: center
+  &__texto
+    font-size: 1.75rem
+    text-align: center
+    color: $color_blanco
+  &__img
+    width: 20rem
+    height: 16rem
+  &__comentar
+    font-size: 1.5rem
+    display: block
+    text-align: center
+    color: $color_amarillo
+
+.noticia
+  background-color: transparentize($color_negro, .3)
+  &__fecha
+    font-size: 1.5rem
+    text-align: center
+    color: $color_blanco
+    margin: 0
+  &__img
+    margin: 1rem auto
+    display: block
+  &__titulo
+    text-align: center
+    font-size: 2rem
+    color: $color_blanco
+  &__texto
+    text-align: justify
+    font-size: 1.75rem
+    color: $color_blanco
+  &__comentar
+    color: $color_blanco
+    padding: 2rem
+    border: 1px solid $color_blanco
+    text-align: center
+    box-shadow: 0 0 14px 4px transparentize($color_amarillo, .2)
+    margin: 0 auto
+    display: flex
+    width: 15rem
+    font-size: 1.5rem
+    align-items: center
+    justify-content: center
+
+
+
